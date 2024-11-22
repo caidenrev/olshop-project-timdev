@@ -7,8 +7,8 @@
   /*========== Colors ==========*/
   --title-color: hsl(250, 8%, 15%);
   --text-color: hsl(250, 8%, 35%);
-  --body-color: hsl(250, 60%, 98%);
-  --container-color: hsl(15, 100%, 93%);
+  --body-color: hsl(0, 0%, 89%);
+  --container-color: #fff;
   --shadow: hsla(0, 0%, 15%, 0.1);
   --scroll-bar-color: hsl(250, 12%, 90%);
   --scroll-thumb-color: hsl(250, 12%, 80%);
@@ -416,6 +416,7 @@ input {
   background-color: var(--container-color);
   padding: 3rem 0;
   border-radius: 3rem;
+  box-shadow: 0px 5px 10px 0;
 }
 
 .discount__img {
@@ -568,6 +569,7 @@ input {
 .newsletter__description {
   padding: 0 3rem;
   text-align: var(--mb-1-5);
+  margin-bottom: var(--mb-3);
 }
 
 .newsletter__form {
